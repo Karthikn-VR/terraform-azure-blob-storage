@@ -9,9 +9,6 @@ terraform {
   }
 }
 
-provider "azurerm" {
-  features {}
-}
 
 # Optional: create Resource Group
 resource "azurerm_resource_group" "this" {
